@@ -44,7 +44,7 @@
    $ git clone https://github.com/Nikoaly/DjangoCountries.git
 2. После клонирования войти в папку проекта и создать виртуальное окружение (где venv_name - название окружения) командой:                                                
    $ python3 -m venv venv_name 
-3. После создания нового виртуального окружения активируйте его командой:
+3. После создания нового виртуального окружения активируйте его командой:                                                                              
    $ source venv_name/bin/activate
 4. $ pip install -r requirements.txt
 5. $ python manage.py migrate
