@@ -10,7 +10,7 @@ def home(request):
     context = {
         'title': 'myCountriesApp',
         "name": "Николай",
-        "email": "@yandex.ru",
+        "email": "name@yandex.ru",
 }
     return render(request, "home.html", context)
 
