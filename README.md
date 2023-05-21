@@ -40,13 +40,15 @@
 
 # Информация о запуске проекта после клонирования
 
-1. Для клонирования проекта из репозитория в локальную папку вашего компьютера набрать команду:
-   git clone
-2.
-3.
-4.
-5.
-6.
-7.
+1. Для клонирования проекта из репозитория в локальную папку вашего ПК набрать команду:
+   git clone https://github.com/Nikoaly/DjangoCountries.git
+2. После клонирования войти в папку проекта и создать виртуальное окружение (где venv_name - название окружения) командой:
+   python3 -m venv venv_name 
+3. После создания нового виртуального окружения активируйте его командой:
+   source venv_name/bin/activate
+4. $ pip install -r requirements.txt
+5. $ python manage.py migrate
+6. $ python manage.py loaddata countries.json
+7. $ python manage.py runserver
 
 
